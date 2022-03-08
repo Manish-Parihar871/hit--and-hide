@@ -1,0 +1,26 @@
+.outer-container {
+  background-color: aqua;
+  width: 80vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  background-color: white;
+  width: 60vw;
+  height: 25vh;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  padding: 3px;
+}
+.inline-box {
+  background-color: black;
+  width: 10vw;
+  text-align: center;
+  color: white;
+}

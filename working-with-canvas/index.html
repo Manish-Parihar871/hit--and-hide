@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snake-game</title>
+   
+    <script src="script.js" ></script>
+</head>
+<body>
+    <div class="center">
+<canvas id="canvas" width="400" height="400"
+    style="border:1px solid #000000;"></canvas>
+    </div>
+  <script>
+     let canvas = document.getElementById('canvas');
+     let ctx = canvas.getContext('2d');
+    ctx.font = "30px Arial";
+    ctx.fillStyle = 'black';
+    ctx.fillRect(0,0,400,80);
+    ctx.fillStyle = 'white';
+    ctx.fillText("score",150,50);
+
+    
+
+  </script>
+</body>
+</html>
